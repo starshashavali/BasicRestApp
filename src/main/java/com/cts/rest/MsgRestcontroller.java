@@ -7,7 +7,8 @@ import org.springframework.web.bind.annotation.RestController;
 public class MsgRestcontroller {
 	@GetMapping("/")
 	public String msg() {
-		return " Your going to meet Sreelala,Your most Luckiest Person";
+		return " Your going to meet Sreelala,Your most Luckiest Person,"
+				+ "Anna Vey ";
 		
 	}
 
