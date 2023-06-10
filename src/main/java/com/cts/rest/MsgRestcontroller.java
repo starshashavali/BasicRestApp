@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class MsgRestcontroller {
 	@GetMapping("/")
 	public String msg() {
-		return " Hi , Bujji kanna, bujji kana,bujji kanna";
+		return " Your going to meet 30 ruppes chicken,Your most Luckiest Person";
 		
 	}
 
