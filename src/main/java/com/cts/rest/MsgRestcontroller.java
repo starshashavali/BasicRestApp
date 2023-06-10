@@ -11,5 +11,9 @@ public class MsgRestcontroller {
 				+ "Anna Vey ";
 		
 	}
+	@GetMapping("/vey")
+	public String whoareyouAllGuys() {
+		return "Anna vey";
+	}
 
 }
